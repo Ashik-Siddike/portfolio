@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Linkedin, Instagram, Youtube, Twitter } from 'lucide-react';
 
 const SocialSidebar = () => {

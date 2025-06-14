@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowDown, Download } from 'lucide-react';
 import { useParallax } from '../hooks/useScrollAnimation';
 import AnimatedSection from './AnimatedSection';

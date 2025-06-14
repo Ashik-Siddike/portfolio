@@ -1,4 +1,3 @@
-import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import AnimatedSection from './AnimatedSection';
 
@@ -51,7 +50,7 @@ const Skills = () => {
   ];
 
   const SkillBar = ({ skill, color, delay }: { skill: any; color: string; delay: number }) => {
-    const [ref, isVisible] = useScrollAnimation(0.3);
+    const [ref, isVisible] = useScrollAnimation(0.3) as [React.RefObject<HTMLDivElement>, boolean];
 
     return (
       <div ref={ref} className="space-y-2">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code2, Github, Linkedin, Mail, Heart } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 

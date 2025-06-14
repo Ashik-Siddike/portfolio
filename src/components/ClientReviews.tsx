@@ -1,4 +1,3 @@
-import React from 'react';
 import { useScrollDirection } from '../hooks/useScrollDirection';
 import TestimonialCard from './TestimonialCard';
 

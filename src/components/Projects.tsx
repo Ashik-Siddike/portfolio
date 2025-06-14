@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Github, Calendar } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 

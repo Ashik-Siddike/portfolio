@@ -98,7 +98,7 @@ const About = () => {
                 <div className="w-80 h-80 mx-auto bg-gradient-to-br from-cyan-400 to-purple-600 rounded-full p-1 hover:scale-105 transition-transform duration-500 glow-cyan">
                   <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center overflow-hidden glass">
                     <img
-                      src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="/ashik.jpg"
                       alt="Ashik Siddik - Full Stack Developer"
                       className="w-72 h-72 object-cover rounded-full hover:scale-110 transition-transform duration-700"
                     />
