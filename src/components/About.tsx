@@ -120,10 +120,10 @@ const About = () => {
                 key={index} 
                 animation="fadeUp" 
                 delay={index * 100}
-                className="glass rounded-lg p-6 border border-gray-700/50 hover:border-cyan-400/50 transition-all duration-300 group hover:transform hover:scale-105 hover-glow"
+                className="glass rounded-lg p-6 border border-gray-700/50 hover:border-cyan-400/50 transition-all duration-300 group hover:transform hover:scale-105 hover-glow flex flex-col items-center text-center"
               >
-                <div className="text-cyan-400 mb-4 group-hover:scale-110 transition-transform duration-300 glow-cyan">
-                  {item.icon}
+                <div className="mb-4 flex items-center justify-center w-full">
+                  {React.cloneElement(item.icon, { className: 'h-10 w-10 text-cyan-400 group-hover:scale-110 transition-transform duration-300' })}
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3 text-glow">
                   {item.title}

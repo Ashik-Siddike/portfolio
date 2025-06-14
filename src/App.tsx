@@ -5,7 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
-import Reviews from './components/Reviews';
+import ClientReviews from './components/ClientReviews';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
@@ -33,7 +33,7 @@ function App() {
           <Skills />
           <Projects />
           <Experience />
-          <Reviews />
+          <ClientReviews />
           <Contact />
         </main>
         <Footer />
